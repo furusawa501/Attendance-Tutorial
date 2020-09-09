@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  get 'static_pages/top'
+  root 'static_pages#top'
+  # ↑ ルートURL/に対するGETリクエストを、
+  #  StaticPagesコントローラのtopアクションと結びつけています。
+
+  # get 'static_pages/top'
   # ↑ /static_pages/topというURLに対するGETリクエストを、
   #  StaticPagesコントローラのtopアクションと結びつけています。
   
