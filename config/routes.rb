@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   # ↑ /static_pages/topというURLに対するGETリクエストを、
   #  StaticPagesコントローラのtopアクションと結びつけています。
   get '/signup', to: 'users#new'
-  
+  resources :users  
 end
