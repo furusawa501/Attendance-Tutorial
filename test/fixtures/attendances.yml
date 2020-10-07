@@ -1,6 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+<<<<<<< HEAD
   worked_on: 2020-10-07
   started_at: 2020-10-07 01:49:38
   finished_at: 2020-10-07 01:49:38
@@ -13,3 +14,17 @@ two:
   finished_at: 2020-10-07 01:49:38
   note: MyString
   user: two
+=======
+  worked_on: 2020-10-02
+  started_at: 2020-10-02 02:22:27
+  finished_at: 2020-10-02 02:22:27
+  note: MyString
+  user: 
+
+two:
+  worked_on: 2020-10-02
+  started_at: 2020-10-02 02:22:27
+  finished_at: 2020-10-02 02:22:27
+  note: MyString
+  user: 
+>>>>>>> 3013fc8f7e59a7b73dbf361804d023971711d462

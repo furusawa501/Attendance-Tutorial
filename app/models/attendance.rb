@@ -1,4 +1,5 @@
 class Attendance < ApplicationRecord
+<<<<<<< HEAD
   belongs_to :user
 
   validates :worked_on, presence: true
@@ -11,3 +12,6 @@ class Attendance < ApplicationRecord
     errors.add(:started_at, "が必要です") if started_at.blank? && finished_at.present?
   end
 end
+=======
+end
+>>>>>>> 3013fc8f7e59a7b73dbf361804d023971711d462
